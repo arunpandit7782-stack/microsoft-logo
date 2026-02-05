@@ -1,0 +1,46 @@
+html,body {
+  margin: 0px;
+  padding: 0px;
+  height: 100%;
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background: #d8e8e8;
+}
+.box {
+  width: 220px;
+  height: 220px;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+}
+.boxes {
+  width: 100px;
+  height: 100px;
+  margin: 5px;
+}
+.red-box {
+  background: #F25022;
+  align-self: start;
+  justify-self: start;
+}
+.green-box {
+  background: #7FBA00;
+  align-self: start;
+  justify-self: end;
+}
+.blue-box {
+  background: #00A4Ef;
+  align-self: end;
+  justify-self: start;
+}
+.yellow-box {
+  background: #ffb900;
+  align-self: end;
+  justify-self: end;
+}
+.text {
+  color: #747474;
+}
